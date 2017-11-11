@@ -1,0 +1,7 @@
+
+body
+{
+    background: coral url(background.gif) no-repeat fixed top;
+    background-position: left;
+    background-size: 50%;
+}

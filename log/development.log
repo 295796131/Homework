@@ -1,0 +1,590 @@
+
+
+Started GET "/greetings/hello" for 127.0.0.1 at 2017-11-11 16:51:40 +0800
+
+ActionController::RoutingError (No route matches [GET] "/greetings/hello"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /home/peng/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/peng/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/peng/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (20.0ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (19.2ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (83.5ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (58.9ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.4ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.0ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (106.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-11 16:51:46 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/templates/rails/welcome/index.html.erb (0.8ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-11 17:00:12 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/templates/rails/welcome/index.html.erb (5.1ms)
+Completed 200 OK in 42ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-11 17:00:15 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/railties-4.2.5.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homework/hello" for 127.0.0.1 at 2017-11-11 17:00:31 +0800
+Processing by HomeworkController#hello as HTML
+  Rendered homework/hello.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 2166ms (Views: 2165.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homework.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-11-11 17:00:34 +0800
+
+
+Started GET "/assets/homework.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-11 17:00:34 +0800
+
+
+Started GET "/homework/hello" for 127.0.0.1 at 2017-11-11 17:03:30 +0800
+Processing by HomeworkController#hello as HTML
+  Rendered homework/hello.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 762ms (Views: 735.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homework.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-11-11 17:03:31 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-11-11 17:03:31 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-11-11 17:03:31 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-11-11 17:03:31 +0800
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-11-11 17:03:31 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-11-11 17:03:31 +0800
+
+
+Started GET "/assets/homework.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-11 17:03:31 +0800
+  [1m[36m (4.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (2.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateCourses (20171111090942)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "courses" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "coursename" varchar, "string" varchar, "teacher" varchar, "studentnumber" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20171111090942"]]
+  [1m[35m (2.3ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/course" for 127.0.0.1 at 2017-11-11 17:10:40 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/course"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /home/peng/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/peng/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/peng/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.6ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (33.0ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (16.5ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (127.0ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.8ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.5ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (80.2ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (2.4ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (137.4ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2017-11-11 17:10:44 +0800
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.7ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 1118ms (Views: 1110.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/scaffolds.self-2b36b796eb5d7dede0ad989db2e5814e746d23ac182cbd3ea9a9b94c0369372e.css?body=1" for 127.0.0.1 at 2017-11-11 17:10:46 +0800
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2017-11-11 17:10:51 +0800
+Processing by CoursesController#new as HTML
+  Rendered courses/_form.html.erb (20.8ms)
+  Rendered courses/new.html.erb within layouts/application (24.1ms)
+Completed 200 OK in 116ms (Views: 93.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2017-11-11 17:10:54 +0800
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.2ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 145ms (Views: 143.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2017-11-11 17:13:46 +0800
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RlEIWmG2XG813AdkJ+q0/Z5sPpCOPZ3xj15J4d0rUw/TWtO2ipt7NX1mXH1NYSeXC6UKNTCofzND5O3gQB+mzA==", "course"=>{"coursename"=>"C++ programmer desigen", "string"=>"c++ is a  very useful class,welcome", "teacher"=>"Mr.Yang", "studentnumber"=>"15"}, "commit"=>"Create Course"}
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "courses" ("coursename", "string", "teacher", "studentnumber", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["coursename", "C++ programmer desigen"], ["string", "c++ is a  very useful class,welcome"], ["teacher", "Mr.Yang"], ["studentnumber", 15], ["created_at", "2017-11-11 09:13:46.203351"], ["updated_at", "2017-11-11 09:13:46.203351"]]
+  [1m[35m (13.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/courses/1
+Completed 302 Found in 30ms (ActiveRecord: 13.8ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2017-11-11 17:13:46 +0800
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCourse Load (0.4ms)[0m  [1mSELECT  "courses".* FROM "courses" WHERE "courses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered courses/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 94ms (Views: 56.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2017-11-11 17:13:52 +0800
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.4ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 51ms (Views: 49.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2017-11-11 17:13:57 +0800
+Processing by CoursesController#new as HTML
+  Rendered courses/_form.html.erb (8.9ms)
+  Rendered courses/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 92ms (Views: 90.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2017-11-11 17:14:28 +0800
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HJywow182cpxI8cpZ4346tSl1wyurqe33MtU9oj0DDaJl2tP5lH+kDmZnDANBmuAQWzjqRA7RXUQcfD3FcD59Q==", "course"=>{"coursename"=>"Ruby programming", "string"=>"ruby on rails ", "teacher"=>"LUO", "studentnumber"=>"18"}, "commit"=>"Create Course"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "courses" ("coursename", "string", "teacher", "studentnumber", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["coursename", "Ruby programming"], ["string", "ruby on rails "], ["teacher", "LUO"], ["studentnumber", 18], ["created_at", "2017-11-11 09:14:28.402976"], ["updated_at", "2017-11-11 09:14:28.402976"]]
+  [1m[36m (7.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/courses/2
+Completed 302 Found in 35ms (ActiveRecord: 8.2ms)
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2017-11-11 17:14:28 +0800
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mCourse Load (0.2ms)[0m  SELECT  "courses".* FROM "courses" WHERE "courses"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered courses/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 72ms (Views: 70.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2017-11-11 17:14:30 +0800
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.3ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 104ms (Views: 101.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/courses/1/edit" for 127.0.0.1 at 2017-11-11 17:14:35 +0800
+Processing by CoursesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCourse Load (0.2ms)[0m  SELECT  "courses".* FROM "courses" WHERE "courses"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered courses/_form.html.erb (6.7ms)
+  Rendered courses/edit.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 82ms (Views: 80.0ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/courses/1" for 127.0.0.1 at 2017-11-11 17:14:48 +0800
+Processing by CoursesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"swvwH7M2QMvgdhK4hGbMYCIe8foUvxHqnTT/zs/eiG8mACvzWBtnkajMSaHu7V8Kt9fFX6oq8yhRjlvPUup9rA==", "course"=>{"coursename"=>"C++ programmer desigen", "string"=>"c++ is a  very useful ", "teacher"=>"Mr.Yang", "studentnumber"=>"15"}, "commit"=>"Update Course", "id"=>"1"}
+  [1m[36mCourse Load (0.5ms)[0m  [1mSELECT  "courses".* FROM "courses" WHERE "courses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "courses" SET "string" = ?, "updated_at" = ? WHERE "courses"."id" = ?[0m  [["string", "c++ is a  very useful "], ["updated_at", "2017-11-11 09:14:48.963639"], ["id", 1]]
+  [1m[35m (5.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/courses/1
+Completed 302 Found in 32ms (ActiveRecord: 6.2ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2017-11-11 17:14:49 +0800
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCourse Load (0.2ms)[0m  [1mSELECT  "courses".* FROM "courses" WHERE "courses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered courses/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 52ms (Views: 50.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2017-11-11 17:14:50 +0800
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.4ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2017-11-11 17:16:00 +0800
+Processing by CoursesController#new as HTML
+  Rendered courses/_form.html.erb (3.7ms)
+  Rendered courses/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 51ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2017-11-11 17:16:55 +0800
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hzmqf2sNScdtNRksDns+Uk5+Dg3GRt8jdJp+izRNVXESMnGTgCBunSWPQjVk8K0427c6qHjTPeG4INqKqXmgsg==", "course"=>{"coursename"=>"Computer NET", "string"=>"internet", "teacher"=>"louxia", "studentnumber"=>"33"}, "commit"=>"Create Course"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "courses" ("coursename", "string", "teacher", "studentnumber", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["coursename", "Computer NET"], ["string", "internet"], ["teacher", "louxia"], ["studentnumber", 33], ["created_at", "2017-11-11 09:16:55.308787"], ["updated_at", "2017-11-11 09:16:55.308787"]]
+  [1m[36m (3.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/courses/3
+Completed 302 Found in 16ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/courses/3" for 127.0.0.1 at 2017-11-11 17:16:55 +0800
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mCourse Load (0.2ms)[0m  SELECT  "courses".* FROM "courses" WHERE "courses"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered courses/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 43ms (Views: 40.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2017-11-11 17:16:57 +0800
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.5ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 52ms (Views: 50.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/courses/1/edit" for 127.0.0.1 at 2017-11-11 17:19:34 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCourse Load (0.3ms)[0m  SELECT  "courses".* FROM "courses" WHERE "courses"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered courses/_form.html.erb (35.9ms)
+  Rendered courses/edit.html.erb within layouts/application (42.5ms)
+Completed 200 OK in 458ms (Views: 415.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/homework/hello" for 127.0.0.1 at 2017-11-11 17:19:41 +0800
+Processing by HomeworkController#hello as HTML
+  Rendered homework/hello.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 53ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homework/hello" for 127.0.0.1 at 2017-11-11 17:22:13 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeworkController#hello as HTML
+  Rendered homework/hello.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 718ms (Views: 703.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-54dd338384ea56bfb1b95ad41ccfa69d478a409adc36bf6b2ea7a7c2e70cd0e8.css?body=1" for 127.0.0.1 at 2017-11-11 17:22:14 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-11-11 17:22:14 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-11-11 17:22:14 +0800
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-11-11 17:22:15 +0800
+
+
+Started GET "/assets/homework.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-11 17:22:15 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-11-11 17:22:15 +0800
+
+
+Started GET "/assets/courses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-11 17:22:15 +0800
+
+
+Started GET "/assets/background.gif" for 127.0.0.1 at 2017-11-11 17:22:15 +0800
+
+
+Started GET "/courses" for 127.0.0.1 at 2017-11-11 17:22:41 +0800
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.3ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 98ms (Views: 90.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2017-11-11 17:23:45 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.3ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (42.3ms)
+Completed 200 OK in 568ms (Views: 541.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.self-bf4b07fe3fa65b01e216b3cfb7f941fc0fe558ee316248d5fe6c2aa2dadc78fe.css?body=1" for 127.0.0.1 at 2017-11-11 17:23:46 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-11-11 17:23:46 +0800
+
+
+Started GET "/assets/courses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-11 17:23:46 +0800
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-11-11 17:23:46 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-11-11 17:23:46 +0800
+
+
+Started GET "/assets/homework.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-11 17:23:47 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-11-11 17:23:47 +0800
+
+
+Started GET "/assets/background.gif" for 127.0.0.1 at 2017-11-11 17:23:47 +0800
+
+
+Started GET "/courses" for 127.0.0.1 at 2017-11-11 17:26:57 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.2ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 508ms (Views: 480.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-44aa16144e784eae69ae36b4e0626a2b080a895716cc12be63fd942ef9ff0606.css?body=1" for 127.0.0.1 at 2017-11-11 17:26:59 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-11-11 17:26:59 +0800
+
+
+Started GET "/assets/homework.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-11 17:26:59 +0800
+
+
+Started GET "/assets/courses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-11 17:26:59 +0800
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-11-11 17:26:59 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-11-11 17:26:59 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-11-11 17:26:59 +0800
+
+
+Started GET "/assets/background.gif" for 127.0.0.1 at 2017-11-11 17:26:59 +0800
+
+
+Started GET "/courses" for 127.0.0.1 at 2017-11-11 17:28:30 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.3ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 554ms (Views: 539.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-8d49d6f65d06986da705c9cb3af66c41d762af32c2b75c497f0860c86fee982a.css?body=1" for 127.0.0.1 at 2017-11-11 17:28:31 +0800
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-11-11 17:28:31 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-11-11 17:28:31 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-11-11 17:28:31 +0800
+
+
+Started GET "/assets/courses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-11 17:28:31 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-11-11 17:28:31 +0800
+
+
+Started GET "/assets/homework.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-11 17:28:31 +0800
+
+
+Started GET "/assets/background.gif" for 127.0.0.1 at 2017-11-11 17:28:31 +0800
+
+
+Started GET "/courses" for 127.0.0.1 at 2017-11-11 18:10:50 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (1.0ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (33.4ms)
+Completed 200 OK in 779ms (Views: 756.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application.self-48d0c8ac679b592c4aad4d4ef21f62b50a06da1bac0147bb9494696fd0b72342.css?body=1" for 127.0.0.1 at 2017-11-11 18:10:52 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-11-11 18:10:52 +0800
+
+
+Started GET "/assets/courses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-11 18:10:52 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-11-11 18:10:52 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-11-11 18:10:52 +0800
+
+
+Started GET "/assets/homework.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-11 18:10:52 +0800
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-11-11 18:10:52 +0800
+
+
+Started GET "/assets/background.gif" for 127.0.0.1 at 2017-11-11 18:10:52 +0800
+
+
+Started GET "/courses/1/edit" for 127.0.0.1 at 2017-11-11 18:11:00 +0800
+Processing by CoursesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCourse Load (0.7ms)[0m  [1mSELECT  "courses".* FROM "courses" WHERE "courses"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered courses/_form.html.erb (65.1ms)
+  Rendered courses/edit.html.erb within layouts/application (74.6ms)
+Completed 200 OK in 122ms (Views: 106.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2017-11-11 18:12:10 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.8ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (41.4ms)
+Completed 200 OK in 548ms (Views: 519.8ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/application.self-9ab5d465f464c320afa424ade992e3c2b4340158ac05c359b79fb10ef72c4dbc.css?body=1" for 127.0.0.1 at 2017-11-11 18:12:11 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-11-11 18:12:11 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-11-11 18:12:11 +0800
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-11-11 18:12:11 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-11-11 18:12:11 +0800
+
+
+Started GET "/assets/homework.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-11 18:12:11 +0800
+
+
+Started GET "/assets/courses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-11 18:12:11 +0800
+
+
+Started GET "/assets/background.gif" for 127.0.0.1 at 2017-11-11 18:12:11 +0800
+
+
+Started GET "/homework/hello" for 127.0.0.1 at 2017-11-11 18:12:26 +0800
+Processing by HomeworkController#hello as HTML
+  Rendered homework/hello.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 56ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/homework/hello" for 127.0.0.1 at 2017-11-11 18:13:32 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeworkController#hello as HTML
+  Rendered homework/hello.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 628ms (Views: 612.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-11-11 18:13:34 +0800
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-11-11 18:13:34 +0800
+
+
+Started GET "/assets/homework.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-11 18:13:34 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-11-11 18:13:34 +0800
+
+
+Started GET "/assets/courses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-11 18:13:34 +0800
+
+
+Started GET "/assets/application.self-6da2837993ea94d578117e1fb106d7327519b83a72a4a7260f3ca9e98532c054.css?body=1" for 127.0.0.1 at 2017-11-11 18:13:34 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-11-11 18:13:34 +0800
+
+
+Started GET "/assets/background.gif" for 127.0.0.1 at 2017-11-11 18:13:34 +0800
+
+
+Started GET "/courses" for 127.0.0.1 at 2017-11-11 18:13:47 +0800
+Processing by CoursesController#index as HTML
+  [1m[35mCourse Load (0.3ms)[0m  SELECT "courses".* FROM "courses"
+  Rendered courses/index.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 72ms (Views: 65.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2017-11-11 18:15:11 +0800
+Processing by CoursesController#index as HTML
+  [1m[36mCourse Load (0.5ms)[0m  [1mSELECT "courses".* FROM "courses"[0m
+  Rendered courses/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 48ms (Views: 45.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/courses/1/edit" for 127.0.0.1 at 2017-11-11 18:15:41 +0800
+Processing by CoursesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCourse Load (0.3ms)[0m  SELECT  "courses".* FROM "courses" WHERE "courses"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered courses/_form.html.erb (67.3ms)
+  Rendered courses/edit.html.erb within layouts/application (75.1ms)
+Completed 200 OK in 143ms (Views: 123.6ms | ActiveRecord: 0.3ms)
